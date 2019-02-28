@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+            canvas {
+                border: 1px solid #d3d3d3;
+                background-color: #f1f1f1;
+            }
+            </style>
+</head>
+<body>
+    <script src="script.js"></script>
+    
+    <button id="show" onClick ="show()">Show</button><BR>
+    <p>Player A</p><BR>
+     <button id="knightRedPlayer" onclick="knight1()" ondblclick="knight2()">Knights</button>
+
+     <button id="elfRedPlayer" onclick="elf1()" ondblclick="elf2()">Elfs</button>
+
+     <button id="dwarfRedPlayer" onclick="dwarf1()" ondblclick="dwarf2()">Dwarfs</button><BR>
+
+    <p>Player B</p><BR>
+    <button id="knightBlackPlayer" onclick="knight3()" ondblclick="knight4()">Knights</button>
+
+     <button id="elfBlackPlayer" onclick="elf3()" ondblclick="elf4()">Elfs</button>
+
+     <button id="dwarfBlackPlayer" onclick="dwarf3()" ondblclick="dwarf4()">Dwarfs</button><BR><br>
+
+        <button id="moveFigureRedPlayer" onclick="moveFigureRedPlayer()">Придвижи фигурата си</button>
+        <button id="attackFigureBlack" onclick="attackFigureBlack()">Aтакува противникова фигура</button>
+        <button id="giveHealthFigureRed" onclick="giveHealthFigureRed()">ИзлекуваЙ нанесените му щети</button>
+
+
+</body>
+</html> 
